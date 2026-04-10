@@ -52,6 +52,7 @@ if (selection.length === 0) {
   if (figma.command === "frame") {
     let count = 0;
     selection.forEach((node) => {
+      if (Math.round(node.width) === Math.round(node.height)) return;
       const maxSize = Math.max(node.width, node.height);
       const frame = figma.createFrame();
 
@@ -79,6 +80,10 @@ if (selection.length === 0) {
       const rasterizedNodes: SceneNode[] = [];
 
       for (const node of selection) {
+        if (Math.round(node.width) === Math.round(node.height)) {
+          rasterizedNodes.push(node);
+          continue; 
+        }
         const resultNode = await createRasterizedSquare(node);
         if (resultNode) {
           rasterizedNodes.push(resultNode);
