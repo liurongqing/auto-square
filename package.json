@@ -1,8 +1,8 @@
 {
   "name": "auto-square",
-  "displayName": "Auto Square",
+  "displayName": "Batch wrap selected layers into perfect 1:1 square frames.",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "description": "",
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",

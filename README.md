@@ -1,6 +1,6 @@
 # Auto Square (Figma Plugin)
 
-![Cover](assets/cover.png)
+![Cover](assets/cover.jpg)
 
 > **Tagline:** Batch wrap selected layers into perfect 1:1 square frames.
 > **Tags:** `resize`, `square`, `batch`, `gamedev`, `utility`, `automation`
