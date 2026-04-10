@@ -3,6 +3,16 @@
   "id": "1624250480873991530",
   "api": "1.0.0",
   "main": "code.js",
+  "menu": [
+    {
+      "name": "Frame Only",
+      "command": "frame"
+    },
+    {
+      "name": "Rasterize",
+      "command": "rasterize"
+    }
+  ],
   "capabilities": [],
   "enableProposedApi": false,
   "documentAccess": "dynamic-page",
